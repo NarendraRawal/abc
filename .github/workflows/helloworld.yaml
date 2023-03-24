@@ -23,4 +23,11 @@ jobs:
     steps:
       - name: goodbye world
         run: echo "goodbye world"
-        shell: bash    
+        shell: bash 
+  
+  goodday:
+    runs-on: ubuntu-latest
+    steps:
+      - name: goodday world
+        run: echo "goodday world"
+        shell: bash         
