@@ -1,6 +1,6 @@
 name: Hello world workflow
 
-  on:
+on:
   push:
     branches:
       - master
@@ -15,7 +15,7 @@ jobs:
     steps:      
      - uses: actions/checkout@v2
      - name: hello world
-       run: echo "hello world"
+       run: echo "Hello world"
        shell: bash
 
   goodbye:
